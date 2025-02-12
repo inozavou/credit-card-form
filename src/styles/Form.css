@@ -1,0 +1,151 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.background-image {
+  flex: 1;
+  height: 919px;
+}
+
+.form {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+button {
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+  font-size: 12px;
+  border-radius: 8px;
+  width: 270px;
+  height: 40px;
+  letter-spacing: 1px;
+}
+.cardholder-name-container {
+  height: 70px;
+}
+.cardholder-input,
+.card-number-input {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid hsl(270, 3%, 87%);
+  border-radius: 8px;
+  height: 40px;
+  width: 270px;
+  padding-left: 9px;
+}
+
+.card-number-input:focus,
+.cardholder-input:focus {
+  border-color: hsl(278, 68%, 11%);
+  outline: none;
+}
+
+.error-cardholder-input {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  height: 40px;
+  width: 270px;
+  border: 1px solid red;
+  outline: none;
+  padding-left: 9px;
+}
+
+.error-message {
+  color: red;
+  border: none;
+  font-size: 9px;
+}
+
+.card-number-container {
+  height: 70px;
+}
+
+.error-card-number-input {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  height: 40px;
+  width: 270px;
+  border: 1px solid red;
+  outline: none;
+  padding-left: 3px;
+}
+
+.bottom-inputs {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.exp-date-container {
+  height: 70px;
+}
+
+.exp-date-input {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.exp-date-month-input,
+.exp-date-year-input {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid hsl(270, 3%, 87%);
+  border-radius: 8px;
+  height: 40px;
+  width: 60px;
+  padding-left: 3px;
+}
+
+.exp-date-month-input:focus,
+.exp-date-year-input:focus,
+.cvc-input:focus {
+  border-color: hsl(278, 68%, 11%);
+  outline: none;
+}
+
+.error-exp-date-month-input {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid hsl(0, 100%, 50%);
+  border-radius: 8px;
+  height: 40px;
+  width: 60px;
+  outline: none;
+  padding-left: 3px;
+}
+.month-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.cvc-input {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid hsl(270, 3%, 87%);
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  padding-left: 3px;
+}

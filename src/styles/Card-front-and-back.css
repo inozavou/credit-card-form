@@ -1,0 +1,65 @@
+.card-front-and-back {
+  position: relative;
+}
+
+.credit-card-front-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  left: 400px;
+  top: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.credit-card-elements {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 25px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: white;
+  justify-content: center;
+  gap: 30px;
+}
+.credit-card-logo {
+  width: 100px;
+}
+
+.credit-card-number {
+  height: 40px;
+  width: 400px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.credit-name-and-expDate {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  font-weight: 100;
+  font-size: 14px;
+}
+.credit-placeholder-name {
+  width: 250px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.credit-card-back-container {
+  position: absolute;
+  left: 480px;
+  top: 500px;
+}
+
+.credid-card-cvc {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  color: white;
+}
