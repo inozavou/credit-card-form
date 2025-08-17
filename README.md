@@ -3,10 +3,10 @@
 A simple React application that displays a credit card preview (front and back) while the user fills out a form.
 The card details update in real-time as the user types.
 
-# Live Demo
+## Live Demo
 
-Check out the deployed version of this project here:
-credit-card-form-webapp.netlify.app
+Check out the deployed version of this project here:  
+[Credid Card Form ](https://credit-card-form-webapp.netlify.app/)
 
 # Features
 
