@@ -17,6 +17,7 @@ Check out the deployed version of this project here:
 
 # Project Structure
 
+```bash
 src/
 ├── App.js # Main component that manages state
 ├── Form.js # Input form for card details
@@ -24,6 +25,7 @@ src/
 ├── CardBack.js # Displays the back side of the card
 ├── styles/
 │ └── App.css # Styling for the application
+```
 
 # Tech Stack
 
@@ -44,3 +46,7 @@ cd credit-card-form // Clone the repository:
 npm install // Install dependencies
 npm start //Start the development server
 http://localhost:3000 // Open in your browser
+
+```
+
+```
