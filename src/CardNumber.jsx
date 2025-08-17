@@ -24,7 +24,7 @@ function CardNumber({ cardNumber, setCardNumber }) {
       <label className="card-number">CARD NUMBER</label>
       <input
         className={isWrong ? "error-card-number-input" : "card-number-input"}
-        placeholder="XXXX-XXXX-XXXX-XXXX"
+        placeholder="0000-0000-0000-0000"
         value={cardNumber}
         onChange={(e) => handleSetCardNumber(e)}
       />
